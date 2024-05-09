@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#8936FF" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Boogaloo&family=Damion&family=Dancing+Script:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Boogaloo&family=Crete+Round:ital@0;1&family=Damion&family=Dancing+Script:wght@400..700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="manifest" href="manifest.json" />
+    <title>Temperature Converter</title>
+  </head>
+  <body>
+    <div class="form-container">
+      <div class="form-title">
+        <h1>Temperature Converter</h1>
+      </div>
+      <form class="interactive-form">
+        <div class="form-inputs">
+          <div class="fahrenheit-section">
+            <p style="font-size: 30px">Fahrenheit</p>
+            <div class="temp-tags">
+              <input type="text" class="fahrenheit-input" />
+              <p style="font-size: 30px">F</p>
+            </div>
+            <p class="fahrenheit-error"></p>
+          </div>
+          <div class="celcius-section">
+            <p style="font-size: 30px">Celsius</p>
+            <div class="temp-tags">
+              <input type="text" class="celsius-input" />
+              <p style="font-size: 30px">C</p>
+            </div>
+            <p class="celsius-error"></p>
+          </div>
+        </div>
+      </form>
+      <button class="reset-button">Reset</button>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
